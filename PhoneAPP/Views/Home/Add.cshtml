@@ -1,0 +1,19 @@
+﻿@model PhoneAPP.Models.PhoneBook
+@{
+    ViewBag.Title = "Add";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<br />
+<h3>AddUser</h3>
+@section leftside
+{
+
+
+    @using (Html.BeginForm("AddUser", "Home"))
+    {
+        @Html.EditorFor(m => m)
+        <br /><br />
+        <input type="submit" value="Add" />
+    }
+}
+

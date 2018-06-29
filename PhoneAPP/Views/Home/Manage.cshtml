@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Manage";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<br />
+<h3>Manage</h3>
+
+<th>
+    <table id="tableOrder" border="1" cellpadding="2">
+
+        <tr><th>ID</th><th>Name</th><th>Surname</th><th>PID</th><th>City</th><th>Postal Code</th><th>Street</th><th>Number</th><th>Phone number</th><th>Remove</th></tr>
+        @foreach (var items in Model)
+        {
+
+            <tr><th>@items.clientID</th><td>@items.clientName</td><td>@items.clientSurname</td><td>@items.clientPID</td><td>@items.clientCity</td><td>@items.clientPostalCode</td><td>@items.clientStreet</td><td>@items.clientNumber</td><td>@items.clientPhoneNumber</td><td>@Html.ActionLink("Remove record", "Manage", "Home", new { id = items.clientID}, null)</td></tr>
+
+        }
+
+    </table>
+</th>

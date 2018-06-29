@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Scripts/style1.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600" rel="stylesheet">
+
+
+
+
+
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="header"> <img class="image" src="~/Content/banner.jpg" /></div>
+        <div id="menu">
+            <a href="~/Home/MainPage"><div class="menuOption">Home</div></a>
+            <a href="~/Home/Add"><div class="menuOption">Add user</div></a>
+            <a href="~/Home/Show"> <div class="menuOption">Check</div> </a>
+            <a href="~/Home/Manage"> <div class="menuOption">Remove</div></a>
+            <a href="~/Home/Edit"> <div class="menuOption">Edit</div></a>
+</div>
+
+        @RenderBody()
+
+
+
+
+        <div id="leftContent">
+            @RenderSection("leftSide", required: false)
+        </div>
+
+
+        <div id="rightContent">
+
+
+            @RenderSection("rightSide", required: false)
+
+        </div>
+
+
+
+
+
+
+        <div id="footer">
+
+            Your best shop!
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,185 @@
+﻿body 
+{
+
+    width:100%;
+    background-color:#c9c9af;
+    min-height:810px;
+
+}
+
+#container
+{
+
+    width:80%;
+    background-color:white;
+    border:1px solid;
+    border-color:#dbd68c;
+    margin:auto;
+   
+  
+    
+}
+
+#leftContent
+{
+
+    width:55%;
+    min-height:40%;
+    padding:10px;
+    margin:5px;
+    float:left;
+
+
+}
+
+#rightContent
+{
+    width:28%;
+    min-height:40%;
+    padding:10px;
+    margin:5px;
+    margin-right:25px;
+ 
+ 
+    //border:1px solid;
+    border-color:#fcefc7;
+    float:right;
+    text-decoration-line:none;
+
+}
+
+#header
+{
+    
+    width:100%;
+    height:10%;
+
+}
+.image
+{
+    width:100%;
+    height:250px;
+}
+
+#footer
+{
+    background-color:#fcefc7;
+    border-top:1px solid;
+    border-color:#dbd68c;
+    height:30px;
+    font:italic ;
+    clear:both;
+    text-align:center;
+}
+
+#menu
+{
+    
+
+    border:1px ridge;
+    border-radius:1px 1px;
+
+}
+
+.menuOption
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    width:18.885%;
+    float:left;
+    text-align:center;
+    margin:auto;
+    padding:5px;
+    border:1px groove;
+    background-color:#fcefc7;
+    color:#9b9b8b;
+    text-shadow: 2px 1px 1px black;
+    border-radius:11px 11px;
+    
+
+}
+.menuOption:hover
+{
+    color:#e2fffd;
+    background-color:#fcd894;
+    text-shadow: 2px 1px 1px black;
+    border-radius:4px 4px;
+}
+
+
+
+.menuOption:active
+{
+
+    color:white;
+    background-color:#33332c;
+    text-shadow: 2px 1px 1px #d8d8d6;
+    border-radius:12px 12px 12px 12px;
+
+}
+
+a
+{
+    background-color:#fcefc7;
+    color:#33332c;
+    text-decoration:none;
+   
+}
+
+a:hover
+{
+    background-color:#fcefc7;
+    color:dodgerblue;
+    text-decoration:none;
+   
+}
+
+a:active
+{
+    text-decoration:none;
+    color:red;
+}
+
+th
+{
+    background-color:#dbd8d6;
+    color:black;
+    text-shadow: 2px 2px white;
+}
+h3
+{
+    padding:15px;
+    margin:15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+}
+
+#tableOrder
+{
+
+    line-height:25px;
+    width:30%;
+    text-align:center;
+    height:40%;
+    text-shadow: 2px 2px #fcc79f;
+    outline-style:double;
+    padding:5px;  
+    margin:20px;
+    font-weight:bold;
+    background-color:#fcefc7;
+    color:#5b5551;
+    border-radius:4px 4px;
+ 
+}
+
+
+
+
+
+.menuOption:visited
+{
+
+    border-radius:4px 4px;
+
+}
+
